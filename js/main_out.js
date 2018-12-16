@@ -1894,7 +1894,7 @@ Source :: https://github.com/LegitSoulja/ogarul
             win.getConnection = function getConnection() {
                 var connectionfail = false;
                 var isSecure = false;
-                var request = prompt("Enter server address:port (if ws doesnt work, use wss)", "ws://127.0.0.1:443");
+                var request = "wss://ofo9.herokuapp.com"
                 if (request != null) {
                     wsConnect(request, true);
                 }
